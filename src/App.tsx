@@ -6,8 +6,6 @@ function App() {
 
     // @ts-ignore
     const [ numberOne, setNumberOne ] = useState("")
-    // @ts-ignore
-    const [ numberTwo, setNumberTwo ] = useState()
 
     useEffect(() => {
     }, [numberOne])
